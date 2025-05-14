@@ -11,10 +11,10 @@
 </head>
 <body>
     <div>
-        <h1 class="text-center">TIENDA INTERACTIVA</h1>
+        <h1 class="text-center" style="background-color: red;">TIENDA INTERACTIVA</h1>
 
         <div class="text-center">
-        <select name="" id="categoria">
+        <select name="" id="categoria" class="form-select w-100" onchange="filtrarCategoria()">
             <option value="ropa">Ropa</option>
             <option value="accesorios">Accesorios</option>
             <option value="zapatos">Zapatos</option>
@@ -23,13 +23,13 @@
      </div>
     </div>
     <div class="text-center">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body" >
+        <div class="card" style="width: 18rem;" >
+            <div id="cd" class="card-body" style="background-color: aquamarine;">
     <h5 class="card-title">Productos</h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">Descripcion</h6>
     <p class="card-text">Estos son algunos productos.</p>
             </div>
-             <button type="button" class="btn btn-success">Agregar al carrito</button>
+             <button type="button" class="btn btn-success" class="btn">Agregar al carrito</button>
         </div>
     </div>    
 
